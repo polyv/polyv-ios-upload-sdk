@@ -22,7 +22,32 @@ PLVVodUploadSDK 的文件目录如下：
 ## 4. 开始集成
 
 ### 4.1 接入 SDK
+##### 安装 CocoaPods
 
+CocoaPods 是 Objective-C的一个依赖管理器，它可以自动化并简化在项目中使用第三方库的过程。你可以用以下命令安装:
+
+```
+$ gem install cocoapods
+```
+
+##### Podfile
+
+要使用 CocoaPods 将 PLVVodUploadSDK 集成到 Xcode 项目中，需要在您的项目中新建一个 Podfile 文件，并在 Podfile 中指定:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'TargetName' do
+pod 'PLVVodUploadSDK', '~> 0.1.0'
+end
+```
+
+然后，执行如下命令：
+
+```
+$ pod install
+```
 
 
 ### 4.2 SDK 登录
