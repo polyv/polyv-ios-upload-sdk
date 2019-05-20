@@ -9,7 +9,7 @@ PLVVodUploadSDK 是 polyv 公司提供的可集成于项目中用于 iOS 设备�
 
 PLVVodUploadSDK 的文件目录如下：
 
-![](/Users/yjxie/document/upload-sdk/PLVVodUploadSDK.png)
+![PLVVodUploadSDK 文件目录](https://github.com/polyv/polyv-ios-upload-sdk/blob/master/resource/PLVVodUploadSDK.png)
 
 其中红色虚线方框里的是 SDK 的 public 文件。
 
