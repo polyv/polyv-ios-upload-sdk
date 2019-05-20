@@ -17,7 +17,7 @@ PLVVodUploadSDK 的文件目录如下：
 
 兼容设备：iOS 8.0 以上的 32 位、64 位 iOS 设备
 
-开发环境：Xcode 10.0 以上、CocoaPods 1.6.0 以上
+开发环境：Xcode 10.0 以上、CocoaPods 1.5.3 以上
 
 ## 4. 开始集成
 
