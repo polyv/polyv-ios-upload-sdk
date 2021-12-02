@@ -146,6 +146,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)retryUploadWithVid:(NSString *)vid fileURL:(NSURL *)fileURL;
 
 /**
+ 恢复视频上传
+ 适用于 status 为 PLVUploadStatusResumable 的上传任务
+ @param vid 上传任务的 vid
+ @param fileURL 上传文件的 URL
+ @param fileName 指定文件名 如果为空 效果等同于 【- (void)retryUploadWithVid:(NSString *)vid fileURL:(NSURL *)fileURL】 默认为源视频文件名
+ */
+- (void)retryUploadWithVid:(NSString *)vid fileURL:(NSURL *)fileURL fileName:(nullable NSString *)fileName;
+
+/**
  返回所有上传中或等待上传的任务
  status 为 PLVUploadStatusWaiting, PLVUploadStatusUploading, PLVUploadStatusResumable
  @return 上传任务数组，数组元素为 PLVUploadVideo 对象

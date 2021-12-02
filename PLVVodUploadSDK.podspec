@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PLVVodUploadSDK"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "保利威视视频上传 iOS SDK."
   spec.description  = <<-DESC
   PolyvUploadSDK 是保利威视公司的视频上传 iOS SDK，

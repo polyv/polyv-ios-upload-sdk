@@ -21,6 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSURL *fileURL;
 
 /**
+ 待上传的视频文件名。可选，不传默认为源视频文件名
+ */
+@property (nonatomic, copy) NSString * __nullable fileName;
+
+/**
  上传目录分类 ID，默认为根目录（ID 为 1）
  */
 @property (nonatomic, assign) long long catalogId;
